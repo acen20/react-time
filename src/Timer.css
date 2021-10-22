@@ -1,0 +1,25 @@
+.timer-container {
+  padding: 50px 100px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.timer {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: 4.2em;
+  transform: scale(7);
+  transition: all 0.5s ease-out;
+  transform-origin: center;
+}
+
+.green {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.red {
+  transform: scale(1);
+  opacity: 1;
+}
